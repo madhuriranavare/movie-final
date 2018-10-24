@@ -1,0 +1,12 @@
+com/stackroute/movieservice/exception/MovieNotFoundException.class
+com/stackroute/movieservice/MovieServiceApplication.class
+com/stackroute/movieservice/service/MovieService.class
+com/stackroute/movieservice/domain/Movie$MovieBuilder.class
+com/stackroute/movieservice/service/MovieServiceImpl2.class
+com/stackroute/movieservice/configuration/PreloadData.class
+com/stackroute/movieservice/repository/MovieRepository.class
+com/stackroute/movieservice/service/MovieServiceImpl.class
+com/stackroute/movieservice/exception/MovieAlreadyExistsException.class
+com/stackroute/movieservice/domain/Movie.class
+com/stackroute/movieservice/controller/MovieController.class
+com/stackroute/movieservice/configuration/SwaggerConfiguration.class
