@@ -1,0 +1,22 @@
+version:  '2'
+services:
+ mongodb:
+   image: mongo:3.2-jessie
+   ports:
+     - "27017:27017"
+   container_name: mongo-movie
+   network_mode: host
+   volumes:
+     - '/home/cgi/data/mysql:/data/db' 
+ mongo-demo:
+   image: movie-app:v11
+   build: /home/cgi/Downloads/all/movie-service
+   restart: always
+   network_mode: host
+   container_name: mongo-demo-compose
+   depends_on:
+     - mongodb
+   ports:
+     - 8080:8080
+   expose:
+     - 8080
